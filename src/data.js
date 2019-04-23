@@ -11,3 +11,11 @@ export var pattern1 = [
   ['#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F'],
   ['#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F']
 ]
+ 
+
+export var pattern2 = pattern1.map(function(array){
+  return array.map(function(color){
+    return color = '#F00'
+  })
+})
+ 
